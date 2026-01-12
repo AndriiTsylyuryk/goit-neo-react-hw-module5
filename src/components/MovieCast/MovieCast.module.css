@@ -1,0 +1,9 @@
+.wrapper{ 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+.list {
+   margin-bottom: 24px;
+}
