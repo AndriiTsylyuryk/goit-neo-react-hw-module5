@@ -1,10 +1,10 @@
 import { Route, Routes } from "react-router-dom";
 import Header from "./Navigation/Navigation";
 
-// import Error from "../Pages/Error/Error";
-import Home from "../Pages/HomePage/HomePage";
+// import Error from "../pages/Error/Error";
+import Home from "../pages/HomePage/HomePage";
 
-import Movies from "../Pages/MoviesPage/MoviesPage";
+import Movies from "../pages/MoviesPage/MoviesPage";
 // import FilmDetails from "../Pages/FilmDetails/FilmDetails";
 import s from "./App.module.css";
 
@@ -13,9 +13,9 @@ import Reviews from "./MovieReviews/MovieReviews";
 import { lazy, Suspense } from "react";
 
 const FilmDetails = lazy(() =>
-  import("../Pages/MovieDetailsPage/MovieDetailsPage")
+  import("../pages/MovieDetailsPage/MovieDetailsPage")
 );
-const Error = lazy(() => import("../Pages/NotFoundPage/NotFoundPage"));
+const Error = lazy(() => import("../pages/NotFoundPage/NotFoundPage"));
 
 const App = () => {
   return (

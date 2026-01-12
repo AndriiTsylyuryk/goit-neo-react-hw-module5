@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { fetchCastById } from "../../API";
 
 import s from "./MovieCast.module.css";
-import Actors from "../../Pages/Actors/Actors";
+import Actors from "../../pages/Actors/Actors";
 
 const Cast = () => {
   const params = useParams();

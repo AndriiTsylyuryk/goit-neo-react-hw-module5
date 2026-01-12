@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { fetchReviewById } from "../../API";
-import ReviewItem from "../../Pages/ReviewItem/ReviewItem";
+import ReviewItem from "../../pages/ReviewItem/ReviewItem";
 
 const Reviews = () => {
   const params = useParams();
